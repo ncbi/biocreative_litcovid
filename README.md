@@ -23,7 +23,13 @@ For more information, please see [BioCreative VII Track 5](https://biocreative.b
 
 ## Instructions to run the evaluation script
 ### Prerequisites
-Download the repository and have python3.8 installed locally.
+Have python3.8 installed locally.
+
+### Clone the repository
+```
+git clone https://github.com/ncbi/biocreative_litcovid.git
+cd biocreative_litcovid
+```
 
 ### Create a virtual environment
 ```
