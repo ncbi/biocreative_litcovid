@@ -1,5 +1,14 @@
 # BioCreative VII Track 5- LitCovid track Multi-label topic classification for COVID-19 literature annotation
 This repository provides evaluation scripts and samples for [BioCreative VII Track 5](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-vii/track-5/). 
+
+## Track intro
+LitCovid track Multi-label topic classification for COVID-19 literature annotation
+The rapid growth of biomedical literature poses a significant challenge for manual curation and interpretation. This challenge has become more evident during the COVID-19 pandemic: the number of COVID-19-related articles in the literature is growing by about 10,000 articles per month. LitCovid, a literature database of COVID-19-related papers in PubMed, has accumulated more than 100,000 articles, with millions of accesses each month by users worldwide. LitCovid is updated daily, and this rapid growth significantly increases the burden of manual curation. In particular, annotating each article with up to eight possible topics, e.g., Treatment and Diagnosis, has been a bottleneck in the LitCovid curation pipeline.
+
+This track calls for a community effort to tackle automated topic annotation for COVID-19 literature. Topic annotation in LitCovid is a standard multi-label classification task that assigns one or more labels to each article. These topics have been demonstrated to be effective for information retrieval and have been used in many downstream applications related to LitCovid. However, annotating these topics has been a primary bottleneck for manual curation. Increasing the accuracy of automated topic prediction in COVID-19-related literature would be a timely improvement beneficial to curators and researchers worldwide.
+
+For more information, please see [BioCreative VII Track 5](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-vii/track-5/).
+
 ## Content of the repository
 - **goldstandard_label_samples.csv**: 
 
