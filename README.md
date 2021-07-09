@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 ### Run the evaluation script
 ```
-python biocreative_litcovid_eval.py --gold goldstandard_label_samples.csv --pred prediction_labels.csv
+python biocreative_litcovid_eval.py --gold goldstandard_label_samples.csv --pred prediction_label_samples.csv
 ```
 
 You should get the following output:
