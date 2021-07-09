@@ -66,12 +66,12 @@ def print_instance_based_scores(labels, preds, topics, threshold=0.5) -> None:
 
     mean_prc = round(np.mean(prc_list), 4)
     mean_rec = round(np.mean(rec_list), 4)
-    f_score_zhou = round(2 * mean_prc * mean_rec / (mean_prc + mean_rec), 4)
+    f_score = round(2 * mean_prc * mean_rec / (mean_prc + mean_rec), 4)
 
     print('instance-based measures')
     print('mean precision', mean_prc)
     print('mean recall', mean_rec)
-    print('mean f1', f_score_zhou)
+    print('f1', f_score)
 
 
 def validate_file(file_name: str, df, header) -> None:
