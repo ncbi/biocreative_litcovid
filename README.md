@@ -28,7 +28,7 @@ Have python3.8 installed locally.
 ### Clone the repository
 ```
 git clone https://github.com/ncbi/biocreative_litcovid.git
-cd biocreative_litcovid-main
+cd biocreative_litcovid
 ```
 
 ### Create a virtual environment
